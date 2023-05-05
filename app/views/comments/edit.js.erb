@@ -1,0 +1,10 @@
+$("#this_comment_<%= @comment.id %>").replaceWith("<%= j render 'comments/edit', blog: @blog, comment: @comment %>");
+$("#notice").html("<%= j flash[:notice] %>");
+
+//$( "#myButton" ).replaceWith( "<button>New Button</button>" );
+//除了 replaceWith() 方法，jQuery 还提供了其他一些用于修改 DOM 的方法，例如 append()、prepend()、before()、after() 等。
+//这些方法可以根据需要灵活地组合使用，实现复杂的 DOM 操作。
+
+
+
+

@@ -21,6 +21,11 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-import 'bootstrap';
-import '../stylesheets/styles';
-import './scripts';
+// import 'bootstrap';
+// import '../stylesheets/styles';
+// import './scripts';
+
+//= require rails-ujs
+//= require turbolinks
+//= require jquery/dist/jquery.js
+//= require_tree .
